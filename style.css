@@ -6,3 +6,12 @@ html {
 .content {
   text-align: center;
 }
+
+/* Test filters here */
+img {  
+    filter: grayscale(80%);
+}
+
+img:hover {
+  filter: grayscale(0%);
+}
