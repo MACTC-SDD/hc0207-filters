@@ -7,9 +7,12 @@ html {
   text-align: center;
 }
 
-/* Test filters here */
 img {  
-    filter: grayscale(80%);
+  width: 100%;
+  object-fit: contain;
+
+  /* Test Filters Here*/
+  filter: grayscale(80%);
 }
 
 img:hover {
